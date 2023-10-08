@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="reset"><button onclick="reset()">Reset</button></div>
+    <!--base-->
+    <div id="score_titel">
+    <h1 id="score">Score</h1>
+    </div>
+    <!--Left-->
+    <div id="homeAway">
+    <div id="home">
+    <h2>Home</h2>
+    <h3 id="teama"></h3>
+    <h3 id="homescore">0</h3>
+    <div id="homeButtons">
+        <input type="button" value="+1" onclick="homePlussOne()">
+        <input type="button" value="+2" onclick="homePlussTwo()">
+        <input type="button" value="+3" onclick="homePlussTree()">
+        <input type="button" value="Reset" onclick="homeReset()">
+    </div>
+    </div>
+    <div id="select">
+    <!--select sport-->
+    <h2>Select sport</h2>
+    <div id="selectSport">
+        <button onclick="fottball()">Fottball</button>
+        <button onclick="basketball()">basketball</button>
+    </div>
+    <!--select team-->
+    <div id="lag">
+    <h3 id="selectLag">Select teams</h3>
+    <div id="fotballLag">
+        <div><button onclick="barsa(), teamc()">barsa</button></div>
+        <div><button onclick="manchester(), teamc()">manchester</button></div>
+        <div><button onclick="aston(), teamc()">Aston villa</button></div>
+        <div><button onclick="liverpool(), teamc()">liverpool</button></div>
+        <div><button onclick="arsenal(), teamc()">arsenal</button></div>
+        <div><button onclick="birmingham(), teamc()">barsa</button></div>
+    </div>
+    <div id="basketballLag">
+        <div><button onclick="milwukee(), teamc()">Milwaukee</button></div>
+        <div><button onclick="boston(), teamc()">Boston</button></div>
+        <!--<div><button onclick="aston(), teamc()">Aston villa</button></div>
+        <div><button onclick="liverpool(), teamc()">liverpool</button></div>
+        <div><button onclick="arsenal(), teamc()">arsenal</button></div>
+        <div><button onclick="birmingham(), teamc()">barsa</button></div>
+        -->
+    </div>
+    <div id="Done">
+        <button onclick="hideSelect()">Done</button>
+        <button onclick="selectSport()">Select Sport</button>
+    </div>
+    </div>
+
+    </div>
+    <!--Right-->
+    <div id="away">
+    <h2>Away</h2>
+    <h3 id="teamb"></h3>
+    <h4 id="awayscore">0</h4>
+    <div id="awayButtons">
+        <input type="button" value="+1" onclick="awayPlussOne()">
+        <input type="button" value="+2" onclick="awayPlussTwo()">
+        <input type="button" value="+3" onclick="awayPlussTree()">
+        <input type="button" value="Reset" onclick="awayReset()">
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

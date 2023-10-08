@@ -1,0 +1,161 @@
+#reset {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: red;
+    
+}
+
+
+
+#score_titel {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content:center;
+    border: 1px;
+    border-style: solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: color-mix(in hsl shorter hue, aqua 20%, red 20%);
+
+}
+
+#homeAway {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+#home {
+    border: 100px;
+    border-style: hidden;
+    background-color: color-mix(in srgb, aqua 25%, white 75%);
+    border-radius: 10%;
+    padding-bottom: 20px;
+    border-bottom: 20px;
+    border-right: 50px;
+    border-left: 50px;
+}
+
+#homescore {
+    position: relative;
+    bottom: 50px;
+    font-size: 900%;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+}
+#homeButtons {
+    position:relative;
+    bottom: 50px;
+    display: none;
+    width: 400px;
+    justify-content: space-around;
+}
+
+#away {
+    border: 100px;
+    border-style: hidden;
+    background-color: color-mix(in srgb, red 20%, white 80%);
+    border-radius: 10%;
+    padding-bottom: 20px;
+    border-bottom: 20px;
+    border-right: 50px;
+    border-left: 50px;
+}
+
+#awayscore {
+    position: relative;
+    bottom: 50px;
+    width: 400px;
+    font-size: 800%;
+    display: flex;
+    justify-content: center;
+}
+#awayButtons {
+    position:relative;
+    bottom: 50px;
+    display: none;
+    width: 400px;
+    justify-content: space-around;
+}
+
+#select {
+    
+    background-color: color-mix(in hsl shorter hue, red 15%, blue 15%);
+    border-radius: 50px;
+    width:500px;
+}
+
+#selectSport {
+    display: flex;
+    justify-content: space-around;
+}
+
+#selectLag {
+    display: flex;
+    justify-content: center;
+}
+
+#lag {
+    display: none;
+}
+
+#fotballLag {
+    position: relative;
+    display: none;
+    flex-wrap: wrap;
+    width: 50%;
+    
+    justify-content: space-around;
+    left: 20%;
+    align-self: auto;
+    align-items:baseline;
+    align-content: baseline;
+    flex: 0, 0, 150px;
+    
+}
+
+#basketballLag {
+    position: relative;
+    display: none;
+    flex-wrap: wrap;
+    width: 50%;
+    
+    justify-content: space-around;
+    left: 20%;
+    align-self: auto;
+    align-items:baseline;
+    align-content: baseline;
+    flex: 0, 0, 150px;
+    
+}
+
+
+#Done {
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#teama {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#teamb {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
